@@ -2,7 +2,13 @@
 	<title>Title</title>
 </svelte:head>
 
-<h3>Contact</h3>
-<p>Testing sibling elements</p>
+<!-- Every -->
+<div>
+	<h3>First div</h3>
+	<p>Testing sibling elements</p>
+</div>
 
-{@html '<p>Testing &#64;html </p>'}
+<div>
+	<h3>Second div</h3>
+	<p>Testing sibling elements</p>
+</div>
